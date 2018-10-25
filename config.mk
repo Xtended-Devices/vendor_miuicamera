@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/xiaomi/MiuiCamera
+VENDOR_PATH := vendor/MiuiCamera
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/etc/device_features/whyred.xml:system/etc/device_features/whyred.xml \
