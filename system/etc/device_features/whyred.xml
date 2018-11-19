@@ -127,7 +127,7 @@
     <!-- support nfc -->
     <bool name="support_nfc">false</bool>
     <!--whether support aohdr in camera-->
-    <bool name="support_camera_aohdr">false</bool>
+    <bool name="support_camera_aohdr">true</bool>
     <!--whether support high frame recording in camera-->
     <bool name="support_camera_hfr">true</bool>
     <!--whether support chroma flash in camera-->
@@ -143,11 +143,11 @@
     <!--whether replace a lower cost effect to avoid preview lag-->
     <bool name="is_camera_replace_higher_cost_effect">false</bool>
     <!--whether support manual focus/exposure_time in camera-->
-    <bool name="support_camera_manual_function">false</bool>
+    <bool name="support_camera_manual_function">true</bool>
     <!--whether capture when user press down the shutter in camera instead of left the shutter-->
     <bool name="support_camera_press_down_capture">true</bool>
     <!--whether support capture in torch mode in camera-->
-    <bool name="support_camera_torch_capture">false</bool>
+    <bool name="support_camera_torch_capture">true</bool>
     <!--whether freeze preview after hdr capture in camera-->
     <bool name="is_camera_freeze_after_hdr_capture">false</bool>
     <!--whether set orientation info for face detection in camera-->
@@ -165,7 +165,7 @@
     <!--whether add watermark in camera app-->
     <bool name="is_camera_app_water_mark">true</bool>
     <!--whether support tiltshift  in camera-->
-    <bool name="support_camera_tilt_shift">true</bool>
+    <bool name="support_camera_tilt_shift">false</bool>
     <!--whether support snap with screen off  in camera-->
     <bool name="support_camera_quick_snap">false</bool>
     <!-- whether the device app permission detail show in provision-->
@@ -270,6 +270,7 @@
     </string-array>
     <!-- whether camera support AI lens entry -->
     <bool name="camera_support_ai_lens">true</bool>
+    <bool name="camera_supported_ai_scene">true</bool>
     <!--whether show my device-->
     <bool name="support_my_device">true</bool>
     <!--whether round corner-->
@@ -321,6 +322,14 @@
     <bool name="support_freeform_reply">true</bool>
     <!--wether support ime xiaoai voice input-->
     <bool name="surpport_ime_xiaoai_voice">true</bool>
+    <!--whether support square mode in camera-->
+    <bool name="support_camera_square_mode">true</bool>
+    <!--whether support magic mirror in camera-->
+    <bool name="support_camera_magic_mirror">true</bool>
+    <!-- whether camera supports paralell process -->
+    <bool name="support_parallel_process">true</bool>
+    <!--whether support tele asd night in camera-->
+    <bool name="is_support_tele_asd_night">true</bool>
     <!-- From android one -->
     <bool name="is_android_one_device">true</bool>
     <bool name="front_fingerprint_sensor">true</bool>
