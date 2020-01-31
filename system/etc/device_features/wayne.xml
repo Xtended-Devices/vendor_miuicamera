@@ -280,7 +280,7 @@
     <!--whether round corner-->
     <bool name="support_round_corner">true</bool>
     <!--battery capacity typ of the device-->
-    <string name="battery_capacity_typ">4000</string>
+    <string name="battery_capacity_typ">3010</string>
     <!--whether show basic info items-->
     <bool name="support_show_basic_items">true</bool>
     <!-- whether CN hardware can flash Global rom -->
