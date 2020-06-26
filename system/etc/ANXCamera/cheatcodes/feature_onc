@@ -15,5 +15,10 @@
   "c_0x11": true,
   "i_s_s_b": true,
   "s_b_m_d_t": 800,
-  "s_b_m_s_c": 5
+  "s_b_m_s_c": 5,
+  "c_0x37": true,
+  "support_camera_4k_quality": true,
+  "c_0x00_s_l_s": true,
+  "s_p_a": true,
+  "c_0x22": true
 }

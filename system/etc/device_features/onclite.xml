@@ -18,8 +18,6 @@
     <bool name="support_dual_sim_card">true</bool>
     <!--whether the device has dual systems-->
     <bool name="is_dual_system">false</bool>
-    <!--whether the device has dual sd card-->
-    <bool name="support_dual_sd_card">true</bool>
     <!--whether the device supports bt debug trace-->
     <bool name="btdebug_enabled">true</bool>
     <!--whether the device supports page layout-->
@@ -34,10 +32,6 @@
     <bool name="support_screen_paper_mode">true</bool>
     <!--whether the device supports button light-->
     <bool name="support_button_light">false</bool>
-    <!--whether the device supports emulated storage-->
-    <bool name="support_emulated_storage">true</bool>
-    <!--whether the device supports internal sdcard-->
-    <bool name="support_internal_sdcard">false</bool>
     <!--whether the device supports power mode-->
     <bool name="support_power_mode">false</bool>
     <!--whether the device supports dolby-->
@@ -58,8 +52,6 @@
     <bool name="support_touch_sensitive">false</bool>
     <!--whether the device supports broadcom wapi-->
     <bool name="support_broadcom_wapi">true</bool>
-    <!--whether the device supports erase external storage-->
-    <bool name="support_erase_external_storage">true</bool>
     <!--whether the device supports headset-->
     <bool name="support_headset">true</bool>
     <!--whether the device supports nvdia wifi display-->
@@ -67,7 +59,7 @@
     <!--whether the device supports eap sim-->
     <bool name="support_eap_sim">true</bool>
     <!--whether the device supports screen optimize-->
-    <bool name="support_screen_optimize">false</bool>
+    <bool name="support_screen_optimize">true</bool>
     <!--whether the device supports agps-->
     <bool name="support_agps">true</bool>
     <!--whether the device supports feedback level-->
@@ -110,10 +102,6 @@
     <bool name="support_camera_age_detection">true</bool>
     <!--whether support record location in camera-->
     <bool name="support_camera_record_location">true</bool>
-    <!--whether support time watermark in camera-->
-    <bool name="support_camera_water_mark">false</bool>
-    <!--whether support new style time watermark in camera-->
-    <bool name="support_camera_new_style_time_water_mark">false</bool>
     <!--whether support pause recording in camera-->
     <bool name="support_camera_video_pause">true</bool>
     <!--whether support boosting screen brightness in camera-->
@@ -156,12 +144,8 @@
     <bool name="support_camera_peaking_mf">true</bool>
     <!--whether support gradienter in camera-->
     <bool name="support_camera_gradienter">true</bool>
-    <!--whether scan qrcode with lower frequency in camera-->
-    <bool name="is_camera_lower_qrscan_frequency">true</bool>
     <!--whether listen frame with single subthread looper in camera-->
     <bool name="is_camera_preview_with_subthread_looper">true</bool>
-    <!--whether add watermark in camera app-->
-    <bool name="is_camera_app_water_mark">false</bool>
     <!--whether support tiltshift  in camera-->
     <bool name="support_camera_tilt_shift">true</bool>
     <!--whether support magic mirror in camera-->
@@ -309,7 +293,7 @@
     <!--whether add algorithm in file name or not-->
     <bool name="enable_algorithm_in_file_suffix">false</bool>
     <!-- whether to support scene selection -->
-    <bool name="camera_supported_scene">false</bool>
+    <bool name="camera_supported_scene">true</bool>
     <!-- device head sar value -->
     <float name="device_head_sar">1.031</float>
     <!-- device body sar value -->
