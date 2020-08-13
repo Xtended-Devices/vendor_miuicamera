@@ -123,7 +123,7 @@
     <!-- whether camera support India special filter -->
     <bool name="camera_support_india_filter">true</bool>
     <!--whether support skin beauty in camera-->
-    <bool name="support_camera_skin_beauty">true</bool>
+    <bool name="support_camera_skin_beauty">false</bool>
     <!--whether support age detection in camera-->
     <bool name="support_camera_age_detection">true</bool>
     <!--whether support fisheye mode  in camera-->
