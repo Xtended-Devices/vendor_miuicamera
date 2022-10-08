@@ -23,7 +23,7 @@ android_app_import {
 	name: "MiuiCamera",
 	owner: "miuicamera",
 	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
-	overrides: ["Camera2 GCamGOPrebuilt"],
+	overrides: ["Camera2 GCamGOPrebuilt GrapheneCamera"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
